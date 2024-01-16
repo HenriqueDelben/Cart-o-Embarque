@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boarding Ticket</title>
+</head>
+
+<body>
+    <div id="boarding-pass">
+        <h1>Cartão de Embarque</h1>
+
+        <div id="ticket">
+            <div id="flight-info" class="ticket__child">
+                <div class="flight-info__child">
+                    <div class="flight-info__child__number left">
+                        <p>Voo<span class="text">RS995</span></p>
+                    </div>
+
+                    <div class="flight-info__child__date right">
+                        <p>Data<span class="text">23/05/2023</span></p>
+                    </div>
+                </div>
+
+                <div class="flight-info__child">
+                    <div class="flight-info__child__departure left">
+                        <p>São Paulo, Brasil<span class="location-flight text">GRU</span></p>
+                        <p class="black-text">17:00</p>
+                    </div>
+
+                    <img src="./assets/icon_airplane.svg" alt="icon_airplane">
+
+                    <div class="flight-info__child__arrival right">
+                        <p>São Francisco, EUA
+                            <span class="location-flight text">
+                                SFO
+                            </span>
+                        </p>
+                        <div class="black-text">
+                            <p class="test">04:48 <span id="special"><sup>+1</sup></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="passenger-info" class="ticket__child">
+                <div class="passenger-info__child">
+                    <div class="passenger-info__child__name left">
+                      <p>Passageiro<span class="text">Rodrigo Terron</span></p>  
+                    </div>
+
+                    <div class="passenger-info__child__name right">
+                        <p>Assento<span class="text">28A</span></p>  
+                      </div>
+                </div>
+            </div>
+
+            <div id="boarding-info" class="ticket__child">
+                <div class="boarding-info__child">
+                    <div class="boarding-info__child__details left">
+                        <div class="boarding-info__child__details__time">
+                            <p>Embarque<span class="text">16:15</span><p>                
+                        </div>
+
+                        <div class="boarding-info__child__details__terminal">
+                            <p>Terminal<span class="text">2</span></p>
+                        </div>
+
+                        <div class="boarding-info__child__details__gate">
+                            <p>Portão<span class="text">15</span></p>
+                        </div>
+                    </div>
+
+                    <div class="boarding-info__child__qrcode right">
+                        <img src="./assets/icon_qrcode.svg" alt="qr code">
+                        <p>Grupo de embarque: 3</p>
+                    </div>
+                </div>
+
+                <p><strong>Atenção: </strong>o portão fecha 16:45</p>
+            </div>
+        </div>
+
+        <p>Qualquer problema procure o balcão de atendimento da sua companhia aérea</p>
+    </div>    
+</body>
+</html>
